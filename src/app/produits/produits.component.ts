@@ -9,7 +9,8 @@ import { Component } from '@angular/core';
   
 })
 
-  export class ProduitsComponent implements OnInit {
-    produits : string[]; //un tableau de chînes de caractères
+import { Produit } from '../model/produit.model';
+export class ProduitsComponent implements OnInit {
+medicaments : Medicament[]; //un tableau de Produit //un tableau de chînes de caractères
     
   }
